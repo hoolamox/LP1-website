@@ -1,0 +1,49 @@
+{
+    "pages": [
+        {
+            "short_code": "rollout-1",
+
+            "active": true,
+            "start_date": "2024-08-01",
+            "end_date": null,
+            
+            "release": {
+                "type": "single",
+                "artist_name": "EVE",
+                "title": "Rollout 1",
+                "cover_art_url":  null
+            },
+            
+            "title": "EVE - Rollout 1",
+            "description": "Pre-save now.",
+
+            "appearance": {
+                "dark_text": false,
+                "dark_containers": true
+            },
+
+            "metadata": {
+                "title":"EVE - Rollout 1",
+                "description": "pre-save now."
+            },
+
+            "links": [
+                {
+                    "vendor": "website",
+                    "url": "https://eve.fm",
+                    "button_text": "Visit"
+                },
+                {
+                    "vendor": "spotify",
+                    "url": "",
+                    "button_text": "Pre-save"
+                },
+                {
+                    "vendor": "apple",
+                    "url": "",
+                    "button_text": "Pre-add"
+                }
+            ]
+        }
+    ]
+}
