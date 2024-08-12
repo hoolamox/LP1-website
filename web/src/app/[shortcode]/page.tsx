@@ -112,7 +112,7 @@ type LinkCellProps = {
 function LinkCell({ vendorIconUrl, url, buttonText, release }: LinkCellProps) {
     return (
         <>
-            <a href={url} target='_blank' className='rounded-full'>
+            <a href={url} target='_blank' className='rounded-full w-80 self-center'>
                 <div className={`flex flex-row align-middle items-center justify-between rounded-full p-3 ${release.appearance.dark_containers ? 'bg-gray-900' : 'bg-white'} shadow-lg hover:${release.appearance.dark_containers ? 'bg-gray-800' : 'bg-gray-200'} transition-all`}>
                     <Image src={vendorIconUrl} alt="Vendor Wordmark" priority width={112} height={112} className='ml-2' />
                     <Button variant='default'>
